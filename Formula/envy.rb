@@ -1,15 +1,15 @@
 class Envy < Formula
   desc "Load Keychain secrets and variables into your current zsh shell, by namespace"
   homepage "https://github.com/christogav/envy"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/christogav/envy/releases/download/v0.1.0/envy-aarch64-apple-darwin.tar.xz"
-      sha256 "f5bd44a0dbcc01bff7248e6c345adac0fd6c33bd26a37fe18a09745581e20bd5"
+      url "https://github.com/christogav/envy/releases/download/v0.2.0/envy-aarch64-apple-darwin.tar.xz"
+      sha256 "6243bdef2feee71b3bf26e3b6cdacd10dbf9d74349cf187f6d1b10a009cdf8cd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/christogav/envy/releases/download/v0.1.0/envy-x86_64-apple-darwin.tar.xz"
-      sha256 "b147bcbd27f099fb2530992c4d8f62406eb18a2790c979cc9dfac14b2a8b03a5"
+      url "https://github.com/christogav/envy/releases/download/v0.2.0/envy-x86_64-apple-darwin.tar.xz"
+      sha256 "354f77799157d471b9e9bb3866a522273f6a0bf8d3c00a22621097fc11bb0509"
     end
   end
   license "MIT"
